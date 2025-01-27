@@ -1,0 +1,22 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-container ul li {
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: var(--mobile-resoultion)) {
+    #navbar {
+        background-color: aqua;
+    }
+}

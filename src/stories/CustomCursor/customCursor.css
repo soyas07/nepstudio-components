@@ -1,0 +1,26 @@
+body {
+  cursor: none;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  transition: transform 0.1s ease-out, background-color 0.3s ease;
+  will-change: transform;
+  
+  /* Flexbox for centering content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; /* Adjust text color to contrast with the background */
+  font-size: 14px; /* Adjust as needed */
+  /* Optional for better visibility */
+  font-weight: bold;
+  font-family: inherit;
+}
+
